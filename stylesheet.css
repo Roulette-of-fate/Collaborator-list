@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.collaborator-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.collaborator-list li {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.collaborator-info {
+    display: flex;
+    align-items: center;
+}
+
+.collaborator-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info h2 {
+    margin: 0;
+    color: #CFCFCD; /* 名前の文字色 */
+}
+
+.info p {
+    margin: 5px 0 10px;
+    color: #E6D7D2; /* 役割の文字色 */
+}
+
+.social-links {
+    margin-top: 5px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #1a73e8;
+    margin-right: 10px;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+.update-date {
+    margin-top: 20px;
+    text-align: center;
+    color: #666;
+}
+
